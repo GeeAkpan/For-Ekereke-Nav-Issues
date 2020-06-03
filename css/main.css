@@ -15,6 +15,7 @@ body {
     font-size: .9rem;
     letter-spacing: .1rem;
     background: lightsteelblue!important;
+   height: 13vh !important;
 }
 
 .navbar-brand img{
@@ -37,15 +38,15 @@ body {
 
 
 /* Landing Page */
-.home-inner{
-    background-image: url('../img/computers.png')!important;
+.home-wrap .home-inner{
+    background: url(/img/computers.png) center center/cover ;
+    max-height: 100vh;
 }
 .caption{
-    width:100%;
-    max-width: 100%;
-    position: absolute;
-    top:38%;
-    z-index:1;
+    text-align: center;
+    align-items: center;
     color:white;
+    padding-top: 160px;
+    padding-bottom: 160px;
     
 }
